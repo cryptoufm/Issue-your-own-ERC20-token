@@ -14,3 +14,5 @@ contracts/erc20_tutorial.sol
 
 THIS IS A MODIFIED FORKED REPO
 This file was modified so the contract is based on limit of supply, and added bonus tokens for the first people who acquire them. The first round of tokens have a conversion of 1ETH for 10,000BC, until 100 million tokens are supplied. The second round has a conversion of 1ETH for 5,000BC, until 500 milion tokens are supplied. Finally, the third round has a conversion of 1 ETH for 2,000BC, until the supply limit is reached, where there would be no more tokens available. The only thing yet to fix is that if the final person who trades ethereum just before the supply limit is reached, and will be surpassed by its value, the person will recieve tokens above the supply limit according to how much was sent.
+
+contrato2.sol file is based on the first contract. It is used as an ICO for a treasurehunt game, which has hint buying options, initialize option. It is only used to have track of the points, in this case tokens, a user acquires thorugout the game.
